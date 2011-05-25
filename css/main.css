@@ -1,0 +1,56 @@
+body {background-color:#ebebeb; font-family: helvetica, arial, sans-serif; color:#000; font-family:'Cantarell', serif;}
+body, form, h1, h2, h3, h4, h5, h6, ul, li, p {margin:0; padding:0;}
+a, a:link, a:visited {text-decoration:none; color:#0066cc; cursor:pointer; outline-style:none}
+a:hover, a:focus {text-decoration:underline; color:#0066cc;}
+a img {border:none;}
+
+
+@font-face {
+  font-family: 'Josefin Sans Std Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Josefin Sans Std Light'), url('http://themes.googleusercontent.com/font?kit=doRWK9Qks0OQGenH-kW8nsnX9wMe89zs2uzox0MWMfk') format('truetype');
+}
+
+body {font-family: helvetica, arial, sans-serif; padding-bottom:200px;}
+#header {width:100%; height:50px; background: #292a2c;}
+#header #wrapper {width:980px;  margin:0px auto 0px auto;}
+
+#header #wrapper #logo {float:left; margin-top:14px; line-height:40px; font-size:20px; color:white; font-family: 'Josefin Sans Std Light', helvetica, sans-serif;}
+#header #wrapper #logo {padding-left:40px; height:32px; width:200px; background: url("../images/logo2.png") no-repeat;}
+
+#header #wrapper #search {float:right; color:white;}
+#header #wrapper #search input {line-height:20px; margin-top: 15px; padding-left:15px; width:300px; border: 1px solid #efefef;}
+
+
+#main  {width:980px;  margin:0px auto 0px auto;}
+#main .box {width:100%; min-height:200px; border:1px solid #999; margin-top:20px; background:white;}
+#main h3 {margin:20px; line-height:20px; font-size:20px;}
+
+#main #chronology {height:250px;}
+#main #chronology #history {float:left; margin-left:10px; height:150px; width:900px;}
+
+#main #daily {height:370px;}
+#main #daily #gauge {float:left; margin-left:10px; width:200px; height:290px; border:1px solid #ccc;}
+#main #daily  h4 {font-weight:normal; width:100%; padding:10px; text-align:center;}
+#main #daily  #gauge h4 {} 
+#main #daily #gauge #gaugeChart {margin:25px;}
+#main #daily #topauthors {float:left; margin-left:25px; width:700px; height:290px;  border:1px solid #ccc;}
+#main #daily #topauthors #authorsChart {float:left; margin-left:25px; width:200px;}
+#main #daily #topauthors ul {float:left; margin-left:50px; margin-top:50px;}
+#main #daily #topauthors li {margin-top:5px; font-size:13px;}
+#main #daily #topauthors li.auth1 {list-style:square inside; color:#bb1f0f;}
+#main #daily #topauthors li.auth2 {list-style:square inside; color:#2441ac;}
+#main #daily #topauthors li.auth3 {list-style:square inside; color:#3e6a2d;}
+#main #daily #topauthors li.auth4 {list-style:square inside; color:#baad1a;}
+
+
+#main #comparison {height:330px;}
+#main #comparison h3 {float:left;}
+#main #comparison #showdown {float:left; margin-left:10px; height:300px; width:900px;}
+#main #comparison #showdown #showdownChart {width:950px; height:240px;}
+#main #comparison #search {float:right;}
+#main #comparison #search input {line-height:20px; margin: 15px; padding-left:15px; width:200px; border: 1px solid #ccc; color:#111;}
+
+
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>LikeAlytics</title>
+  <script type='text/javascript' src='http://www.google.com/jsapi'></script>
+	<script src="js/history.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/gauge.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/authors.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/showdown.js" type="text/javascript" charset="utf-8"></script>
+	<link type="text/css" href="css/main.css" rel="stylesheet">
+</head>
+<body>
+	<div id="header">
+		<div id="wrapper">
+			<div id="logo">LikeAlytics</div>
+			<div id="search"><input type="text" value="TechCrunch.com"> </input></div>
+		</div>
+	</div>
+	
+	<div id="main">
+
+		<div class="box" id="chronology">
+			<h3> 30 Day Chronology </h3>
+			<div id="history">
+				<div id='historyChart'></div>
+			</div>
+		</div>
+
+		<div class="box" id="daily">
+			<h3>Daily Hotness</h3>
+			<div id="gauge">
+				<h4> Today&rsquo;s Total Like </h4>
+				<div id="gaugeChart"></div>
+			</div>
+			<div id="topauthors">
+				<div id="authorsChart">
+					<h4> Today&rsquo;s Top Ten Articles  </h4>
+					<div id="topauthorsChart" style="margin-left:10px;"></div>
+				</div>
+					<ul>
+						<li class="auth1">John Biggs - Yin of Coding ...</li>
+						<li class="auth1">John Biggs - Techcrunch Disrupt ...</li>
+						<li class="auth1">John Biggs - Apple vs. Google ... </li>
+						<li class="auth2"> Michael Arrington - Adobe is lame ... </li>
+						<li class="auth2"> Michael Arrington - Why does everyone hate me? ...</li>
+						<li class="auth2"> Michael Arrington - Barack Obamas Tech Policy ...</li>
+						<li class="auth2"> Michael Arrington - Excited about Tech Disrupt! ....</li>
+						<li class="auth3"> MG Seigler - Facebook f8 sucks ...</li>
+						<li class="auth3"> MG Seigler - Flickr and Foursquare ... </li>
+						<li class="auth3"> MG Seigler - Gowalla + Yahoo equals no go ...</li>
+					</ul>
+				&nbsp;
+			</div>
+		</div>
+
+		<div class="box" id="comparison">
+			<h3>TechCrunch Showdown</h3>
+			<div id="search"><input type="text" value="ReadWriteWeb.com"> </input></div>
+			<div id="showdownChart">
+			</div>
+		</div>
+
+	</div>
+	
+</body>
+</html>
